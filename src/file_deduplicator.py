@@ -62,28 +62,25 @@ def DisplayResult(MyDict):
         Count = 0
 
 def DeleteDuplicate(Path="Data"):
-
     MyDict = FindDuplicate(Path)
+
+    if MyDict is None:
+        return
 
     Result = list(filter(lambda x: len(x) > 1, MyDict.values()))
 
-    Count = 0
-    Cnt = 0
+    DeletedCount = 0
 
     for value in Result:
+        
+        value.sort()
 
-        for subvalue in value:
+        for duplicate_file in value[1:]:
+            print("Deleted File :", duplicate_file)
+            os.remove(duplicate_file)
+            DeletedCount += 1
 
-            Count = Count + 1
-
-            if Count > 1:
-                print("Deleted File:", subvalue)
-                os.remove(subvalue)
-                Cnt = Cnt + 1
-
-        Count = 0
-
-    print("Total Deleted Files:", Cnt)
+    print("Total Deleted Files :", DeletedCount)
 
 def main():
 
