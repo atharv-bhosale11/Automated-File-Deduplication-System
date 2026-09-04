@@ -1,0 +1,37 @@
+Data\CommandLine1 - Copy.py
+Data\CommandLine1.py
+Duplicate Files Count: 2
+Data\CommandLine2 - Copy.py
+Data\CommandLine2.py
+Duplicate Files Count: 2
+Data\CommandLine3 - Copy.py
+Data\CommandLine3.py
+Duplicate Files Count: 2
+Data\CommandLine4 - Copy.py
+Data\CommandLine4.py
+Duplicate Files Count: 2
+Data\CommandLine5 - Copy.py
+Data\CommandLine5.py
+Duplicate Files Count: 2
+Data\Schedular1 - Copy.py
+Data\Schedular1.py
+Duplicate Files Count: 2
+Data\Schedular2 - Copy.py
+Data\Schedular2.py
+Duplicate Files Count: 2
+Data\Schedular3 - Copy.py
+Data\Schedular3.py
+Duplicate Files Count: 2
+Data\Schedular4 - Copy.py
+Data\Schedular4.py
+Duplicate Files Count: 2
+Deleted File : Data\CommandLine1 - Copy.py
+Deleted File : Data\CommandLine2 - Copy.py
+Deleted File : Data\CommandLine3 - Copy.py
+Deleted File : Data\CommandLine4 - Copy.py
+Deleted File : Data\CommandLine5 - Copy.py
+Deleted File : Data\Schedular1 - Copy.py
+Deleted File : Data\Schedular2 - Copy.py
+Deleted File : Data\Schedular3 - Copy.py
+Deleted File : Data\Schedular4 - Copy.py
+Total Deleted Files : 9
