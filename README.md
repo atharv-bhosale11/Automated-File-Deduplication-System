@@ -3,7 +3,7 @@
 A Python-based automation tool that detects and removes duplicate files using MD5 hashing. The system scans directories recursively, identifies duplicate files based on their content, and removes redundant copies to optimize storage utilization and improve file management efficiency.
 
 ---
-
+ 
 ## 🚀 Features
 
 - 🔍 Detects duplicate files using MD5 hashing
